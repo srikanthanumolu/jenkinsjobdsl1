@@ -1,6 +1,6 @@
 commands = '''#!/bin/bash
 pwd
-echo "welcome hi"
+echo "welcome"
 '''
 job('test-job2') {
   
