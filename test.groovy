@@ -1,7 +1,7 @@
 job('test-job2') {
   
     steps {
-        shell('''\
+        shell('''
         #!/bin/bash
         pwd
         echo "welcome"
