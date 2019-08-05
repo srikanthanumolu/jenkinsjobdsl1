@@ -5,6 +5,6 @@ job('test-job2') {
         #!/bin/bash
         pwd
         echo "welcome"
-        ''')
+        '''.stripIndent())
     }
 }
