@@ -1,10 +1,10 @@
-commands = '''#!/bin/bash
+STEPS = '''#!/bin/bash
 pwd
 echo "welcome home"
 '''
 job('test-job2') {
   
     steps {
-        shell(commands)
+        shell(STEPS)
     }
 }
